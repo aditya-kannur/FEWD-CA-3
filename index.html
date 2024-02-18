@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <div class="logo-container">
+        <img class="logo" src="CuisineQuest-logos.jpeg" alt="logo" />
+      </div>
+      <div class="home-button" onclick="run()"><span>Home</span></div>
+      <div class="contact-button"><span>Contact</span></div>
+    </div>
+
+    <div class="description-div">
+      <div class="description-container">
+        <div class="description">
+            <h3>Don't know what to cook, we got your back!</h3>
+          We believe that cooking should be fun, approachable, and rewarding for
+          everyone, regardless of skill level. Our mission is to empower home
+          cooks of all backgrounds to unleash their creativity, expand their
+          culinary horizons, and enjoy the delightful journey of discovering new
+          flavors and recipes.
+        </div>
+      </div>
+      <div class="search-bar-container">
+        <input class="search-bar" type="text" placeholder="search" />
+      </div>
+    </div>
+
+    <div class="random-image-div">
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Meal Details</h2>
+        <div id="ingredients"></div>
+        <div id="procedure"></div>
+      </div>
+    </div>
+
+    <div class="list-image-div"></div>
+  </body>
+  <script src="site.js"></script>
+</html>
